@@ -7,7 +7,7 @@ const app = express();
 app.get('/', (req, res) => {
 	res.send('Welcome to Home page');
 });
-app.get('/user', (req, res) => {
+app.get('/users', (req, res) => {
 	res.send(user);
 });
 
